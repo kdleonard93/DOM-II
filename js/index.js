@@ -1,3 +1,12 @@
+// Nav
+// const navBar = document.getElementByClassName("nav");
+
+// navBar.addEventListener("load", () =>{
+//     let navItem = document.createElement("a");
+//     navBar.append(a);
+// })
+
+
 // Button variables
 const btn1 = document.querySelectorAll(".btn")[0];
 const btn2 = document.querySelectorAll(".btn")[1];
