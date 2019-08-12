@@ -19,9 +19,14 @@ btn3.style.borderRadius = "40px";
 
 // text variables
 
-const bodyText = document.querySelector("p");
+const bodyText = document.querySelectorAll("p")[0];
 
 document.addEventListener("keydown", () => {
     bodyText.style.color = "teal";
 });
 
+const bodyText2 = document.querySelectorAll("p")[1];
+
+document.addEventListener("keyup", () => {
+    bodyText2.style.fontSize = "25px";
+});
